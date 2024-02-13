@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <!--  "es-ES" se refiere al código de idioma y país específico según la norma BCP 47. En este ejemplo, representa es-español de ES-España. -->
+  <head>
+    <title>Pc Componentes Nicolás</title>
+    <!-- Define el título de la página que se muestra en la pestaña del navegador. -->
+    <meta charset="UTF-8" />
+    <!-- Especifica la codificación de caracteres UTF-8 para admitir caracteres especiales en el idioma. -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="canonical" href="" />
+    <!-- En CSS, la etiqueta <link> con el atributo rel="canonical" se utiliza para especificar la URL canónica de una página web. La URL canónica es la versión preferida de una página que se utiliza para evitar problemas de contenido duplicado en los motores de búsqueda. -->
+
+    <meta charset="UTF-8" />
+    <!-- Codificación del tipo de caracteres -->
+    <link rel="icon" href="./Assets/iconoPc.jpeg" type="img/jpeg" />
+    <!--icono/simbolo en la pestaña -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Esto le da al navegador instrucciones sobre cómo controlar las dimensiones y la escala de la página.
+      width=device-widthestablece el ancho de la página (que variará según el dispositivo).
+      La initial-scale=1.0parte establece el nivel de zoom inicial cuando el navegador carga la página por primera vez. Configura la escala inicial y la anchura del dispositivo para la visualización en dispositivos móviles.-->
+    <!--que el navegador sea en escala 1 y se adapte a los dispositivos-->
+    <meta name="theme-color" content="#ff0000" />
+    <!-- color por defecto de la barra de navegación del navegador -->
+    <script src="main.js"></script>
+    <!-- link para el javascript -->
+    <meta name="author" content="Nicols Enciso Núñez" />
+    <!-- el autor de la pagina -->
+    <meta
+      name="description"
+      content="Tienda de ordenadores  y componentes para Pc"
+    />
+    <!-- Mejora el posicionamiento de la web.Proporciona una descripción breve del sitio para fines de SEO. -->
+    <meta
+      name="keywords"
+      content="Ordenadores, portatiles, componentes pc, electronica"
+    />
+    <!-- Define palabras clave relevantes para el sitio web. -->
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <!--compatibilizar los navegadores -->
+    <meta name="robots" content="index, follow" />
+    <!--  se utiliza para proporcionar instrucciones a los motores de búsqueda sobre cómo deben indexar y seguir los enlaces de una página web.  -->
+    <meta name="google" content="notranslate" />
+    <!-- deshabilita la traduccion de la pagina -->
+    <meta property="og:title" content="HTML" />
+    <!--Las propiedades obligatorias en Open Graph serán og:title,para compartir la pagina con otras como facebook, para que al compartir salga una imagen en miniatura contetn="./assets/"-->
+    <!--  refresh redirige a la URL pasados los segundos indicados -->
+    <!-- <meta http-equiv="refresh" content="5000;url=http://www.google.com/" /> -->
+    <!-- Expires es la fecha a partir de la que consideramos la página expirada -->
+    <meta http-equiv="expires" content="Fri, 29 Apr 2028 12:56:00 GMT" />
+    <!-- Pragma indica si queremos que se guarde o no la caché -->
+    <meta http-equiv="pragma" content="no-cache" />
+    <!-- Este es el especial que indica a Internet si debe o no guardar la caché -->
+    <meta http-equiv="cache-control" content="no-cache" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-pc">
+          <img
+            src="./Assets/LOGO PRINCIPAL.svg"
+            alt="logo principal"
+            class="log"
+          />
+        </div>
+        <img src="./Assets/icono_menu.png" alt="Menu" class="log-menu-min" />
+        <ul class="inputs">
+          <li>
+            <input
+              type="text"
+              id="busqueda"
+              name="busqueda"
+              placeholder="Buscar"
+            />
+          </li>
+          <li>
+            <select id="opciones" name="opciones">
+              <option value="opcion1">Todas las Categorias</option>
+              <option value="opcion2">Reacondicionado</option>
+              <option value="opcion3">Ofertas</option>
+              <option value="opcion3">Outlet</option>
+            </select>
+          </li>
+        </ul>
+        <ul class="li-iconos">
+          <li>
+            <img src="./Assets/icono compromiso.png" alt="Compromiso" /><a
+              href="#"
+              >Compromiso</a
+            >
+          </li>
+          <li>
+            <img src="./Assets/icono Mi Cuenta.png" alt="Mi Cuenta" />
+            <a href="#"> Mi Cuenta</a>
+          </li>
+          <li>
+            <img src="./Assets/icono mi cesta.png" alt="Mi Cesta" />
+            <a href="#"> Mi Cesta</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="ul-list">
+        <li id="list">
+          <img src="./Assets/icono_menu.png" alt="Menu" class="log-menu" />
+          <a href="#"> Todas las Categorias</a>
+          <ul class="list-check">
+            <li><a href="#">Gaming</a></li>
+            <li><a href="#">Portátiles</a></li>
+            <li><a href="#">Televisores</a></li>
+            <li><a href="#">Monitores</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Ofertas Gaming Days</a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="principal">
+        <h1 class="title-h1"><strong>Expertos en tecnología</strong></h1>
+        <p class="title-text">con un servicio 5 estrellas</p>
+      </section>
+      <section>
+        <div class="imagencentral">
+          <img
+            class="princpal-imagen"
+            src="./Assets/Imagen principal.webp"
+            alt="imagen-principal"
+          />
+        </div>
+
+        <article class="cards">
+          <ul>
+            <li>
+              <img loading="lazy" src="./Assets/1-c-portatiles.webp" alt="portatiles" /><a
+                href="https://www.pccomponentes.com/portatiles"
+                target="_blank"
+                rel="noopener"
+              >
+                Juega desde donde quieras con estas ofertas</a
+              >
+            </li>
+            <li>
+              <img loading="lazy" src="./Assets/2-c-componentes.webp" alt="componentes" />
+              <a href="https://www.pccomponentes.com/especial-ocio-conectado" target="_blank"
+              rel="noopener">Los mejores componentes del mercado</a>
+            </li>
+            <li>
+              <img loading="lazy" src="./Assets/3-c-Perifericos.webp" alt="Perifericos" /><a
+                href="https://www.pccomponentes.com/especial-almacenamiento"
+                target="_blank"
+              rel="noopener">Completa tu setup con estos descuentos formidable</a
+              >
+            </li>
+            <li>
+              <img loading="lazy"
+                src="./Assets/4-c-Smarthphones y Tablets.webp"
+                alt="SmartyTablets"
+              />
+              <a href="https://www.pccomponentes.com/especial-ocio-conectado"
+              target="_blank"
+              rel="noopener" >Smarthphones al mejor precio increible y maravilloso</a
+              >
+            </li>
+            <li>
+              <img loading="lazy" src="./Assets/5-c-Tv y Audio.webp" alt="tv_Video" /><a
+                href="https://www.pccomponentes.com/monitores-pc"
+                target="_blank"
+              rel="noopener">Televisores de ultima generacion perfeccionadas</a
+              >
+            </li>
+            <li>
+              <img  loading="lazy"src="./Assets/6-c-Hogar.webp" alt="Hogar" /><a href="https://www.pccomponentes.com/seleccion-robots-aspiradores"
+              target="_blank"
+              rel="noopener">Lo mejor de la tecnologia para su hogar</a
+              >
+            </li>
+          </ul>
+        </article>
+        <article class="icono-servicios">
+          <h2><p>Descubre Nuestros Servicios</p></h2>
+          <p>Lo Último en Desarrollo tecnológico</p>
+          <ul class="ico">
+            <li><img src="./Assets/ICONO 1.webp" alt="Descuentos" class="smooth-scale"></li>
+            <li><img src="./Assets/ICONO2.webp" alt="Ofertas" class="smooth-scale"></li>
+            <li><img src="./Assets/ICONO 3.webp" alt="Garantia" class="smooth-scale"></li>
+            <li><img src="./Assets/ICONO 4.webp" alt="Devoluciones" class="smooth-scale"></li>
+            <li><img src="./Assets/ICONO 5.webp" alt="Asistencia" class="smooth-scale"></li>
+            <li><img src="./Assets/ICONO 6.webp" alt="Reacondicionados" class="smooth-scale"></li>
+          </ul>
+        </article>
+      </section>
+   
+<article class="topping">
+  <div class="asig">
+    <img src="./Assets/SELECCION TOP.webp" alt="Seleccion Top" class="selec-imk">
+    <p>Tus productos favoritos de tecnologia con ofertas y descuentos exclusivos</p>
+    <button type="submit" class="bot-top">Ver más</button>
+  </div>
+  <div class="forWp">
+  <ul class="listado-1">
+    <li><a href="#">Ordenadores</a></li>
+    <li><a href="#">Componentes</a></li>
+    <li><a href="#">Periféricos</a></li>
+    <li><a href="#">Consolas y Videojuegos</a></li>
+    <li><a href="#">Hogar Tech</a></li>
+  </ul>
+  <ul class="sobremesas-imk">
+    <li>
+      <img loading="lazy" src="./Assets/SOBREMESA 1.webp" alt="Sobremesa 1">
+      <a href="https://www.pccomponentes.com/pccom-ready-intel-core-i5-12400f-16gb-1tb-ssd-rtx-4060-ti-windows-11-home"  target="_blank"
+      rel="noopener"> PcCom Ready Intel Core i5-12400F / 32GB / 1TB SSD / RX 6750 XT</a>
+      </img>
+    </li>
+    <li>
+      <img loading="lazy" src="./Assets/SOBREMESA 2.webp" alt="Sobremesa 2">
+      <a href="https://www.pccomponentes.com/pccom-imperial-amd-ryzen-7800x3d-32gb-2tb-ssd-rtx-4070-ti-windows-11-home-negro"  target="_blank"
+      rel="noopener">PcCom Ready Intel Core i5-12400F / 32GB / 1TB SSD / RX 6750 XT</a>
+    </img>
+    <li>
+      <img loading="lazy"  src="./Assets/SOBREMESA 3.webp" alt="Sobremesa 3">
+      <a href="https://www.pccomponentes.com/hp-15-fd0076ns-intel-core-i5-1335u-16gb-512gb-ssd-156" target="_blank"
+      rel="noopener">PcCom Ready Intel fytr i4-12400F / 30GB / 3TB SSD / RX 6750 XT</a>
+    </img>
+  </li>
+    <li>
+      <img loading="lazy"  src="./Assets/SOBREMESA 4.webp" alt="Sobremesa 4">
+      <a href="https://www.pccomponentes.com/msi-creator-p100a-13nue-1298es-intel-core-i7-13700f-32gb-1tb-ssd-rtx-4070"  target="_blank"
+      rel="noopener"> PcCom Ready Intel fytr i4-12400F / 30GB / 3TB SSD / RX 6750 XT</a>
+    </img>
+  </li>
+  </ul>
+</div>
+</article>
+<section>
+  <article class="tech">
+    <section class="principal_tech">
+      <h3 class="title_h3"><strong>Tecnología que se adapta a tu estilo de vida</strong></h3>
+      <h3 class="svida"><strong>Estilo de Vida</strong></h3>
+      
+      <p class="title_tech">Nuestros expertos han seleccionado los mejores productos para que puedas disfrutar más en tu día a día</p>
+    </section>
+    <ul>
+      <li>
+        <img loading="lazy" src="./Assets/T1_PASION POR EL GAMING.webp" alt="Pasion Gamming" /><a
+          href="https://www.pccomponentes.com/portatiles"
+          target="_blank"
+          rel="noopener"
+        >
+          Pasión por el Gamming</a
+        >
+      </li>
+      <li>
+        <img loading="lazy" src="./Assets/T2_PRODUCTIVIDAD Y TELETRABAJO.webp" alt="Productividad y TELETRABAJO" />
+        <a href="https://www.pccomponentes.com/especial-ocio-conectado" target="_blank"
+        rel="noopener">Productividad y Teletrabajo</a>
+      </li>
+      <li>
+        <img loading="lazy" src="./Assets/T3_ESENCIALES PARA LOS ESTUDIANTES.webp" alt="Esencial para estudiantes" /><a
+          href="https://www.pccomponentes.com/especial-almacenamiento"
+          target="_blank"
+        rel="noopener">Esenciales para estudiantes</a
+        >
+      </li>
+      <li>
+        <img loading="lazy"
+          src="./Assets/T4-CREADORES DE CONTENIDO.webp"
+          alt="CREADORES DE CONTENIDO"
+        />
+        <a href="https://www.pccomponentes.com/especial-ocio-conectado"
+        target="_blank"
+        rel="noopener" >Creadores de contenido</a
+        >
+      </li>
+      <li>
+        <img loading="lazy" src="./Assets/T5_DISFRUTA DEL CINE EN CASA.webp" alt="DISFRUTA DEL CINE EN CASA" /><a
+          href="https://www.pccomponentes.com/monitores-pc"
+          target="_blank"
+        rel="noopener">Televisores de ultima generacion perfeccionadas</a
+        >
+      </li>
+    </ul>
+  </article>
+</section>
+<div class="logos">
+  <ul>
+    <li><img src="./Assets/1-LOGO APPLE.webp" alt="logo apple"></li>
+    <li><img src="./Assets/5-LOGO LOGITECH.webp" alt="logo google"></li>
+    <li><img src="./Assets/3-LOGO HP.webp" alt="Logo hp"></li>
+    <li><img src="./Assets/4-LOGO INTEL.webp" alt="logo intel"></li>
+  </ul>
+</div>
+    </main>
+
+    <footer>
+<div class="bigfoot">
+<ul>
+  <nav>
+    <li><p>Por qué comprar</p> </li>
+    <li><a href="https://www.pccomponentes.com/soporte/como-comprar-en-pccomponentes" target="_blank"
+      rel="noopener">Cómo comprar</a></li>
+    <li><a href="https://www.pccomponentes.com/soporte/formas-de-pago" target="_blank"
+      rel="noopener">Formas de pago</a></li>
+    <li><a href="https://www.pccomponentes.com/soporte/gastos-de-envio" target="_blank"
+      rel="noopener">gastos de envío</a></li>
+  </nav>
+</ul>
+<ul>
+  <nav>
+    <li><p>Quiénes somos</p></li>
+    <li><a href="">Compromisos</a></li>
+    <li><a href="">nuestras tiendas</a></li>
+    <li><a href="">Aviso legal</a></li>
+  </nav>
+</ul>
+<ul>
+  <nav>
+    <li><p>Contactar</p></li>
+    <li><a href="">Centro de soporte</a></li>
+    <li><a href="">Canal ético</a></li>
+    <li><a href="">Devoluciones</a></li>
+    <li><a href="">Garantías</a></li>
+  </nav>
+</ul>
+<ul>
+  <nav>
+    <li><p>Otros</p></li>
+    <li><a href="">Replay</a></li>
+    <li><a href="">PcDays</a></li>
+    <li><a href="">Concursos</a></li>
+  </nav>
+</ul>
+</div>
+<div class="cierre">
+  <p>TODOS LOS DERECHOS RESERVADOS BAJO LICENCIA. 2024@ -MADRID- NICOLÁS ENCISO NÚÑEZ</p>
+</div>
+    </footer>
+  </body>
+</html>
